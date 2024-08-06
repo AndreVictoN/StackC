@@ -14,7 +14,7 @@ typedef struct tipoPilha{
 	int* elementos;
 }TipoPilha;
 
-TipoPilha* 	InicializarPilhaArr(int base, int capacidade);
+TipoPilha* InicializarPilhaArr(int base, int capacidade);
 
 bool InserirPilhaArr(TipoPilha* pilha, int lim, int valor);
 
